@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(0, 0%, 81%);
+}
+
+.person-picture {
+  border-radius: 50%;
+}
+
+.daniel-testimonial {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+  border-radius: 9px;
+}
+
+.jonathan-testimonial {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 9px;
+}
+
+.jeanette-testimonial {
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.129);
+}
+
+.jeanette-testimonial .testimonial-header {
+  color: hsl(217, 19%, 35%);
+}
+
+.patrick-testimonials {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 9px;
+}
+
+.kira-testimonial {
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.129);
+}
+
+.kira-testimonial .testimonial-header {
+  color: hsl(217, 19%, 35%);
+}
+
+.testimonial-header {
+  color: #fff;
+}
+
+.person-name {
+  color: hsl(0, 0%, 81%);
+}
+
+.person-check {
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+
+.lead {
+  color: hsl(0, 0%, 81%);
+  opacity: 70%;
+}
+
+.testimonial-header {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.person-text {
+  line-height: 1.7;
+  color: hsl(217, 19%, 35%);
+}
